@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "f1-timeseries-mlops"
+version = "0.1.0"
+description = ""
+authors = ["Matt Landowski <matthew.landowski@aspeninsights.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+polars = "^1.12.0"
+plotly = "^5.24.1"
+nbformat = "^5.10.4"
+dash = "^2.18.2"
+ipywidgets = "^8.1.5"
+altair = "^5.4.1"
+vega-datasets = "^0.9.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+pyarrow = "^18.0.0"
+pandas = "^2.2.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
