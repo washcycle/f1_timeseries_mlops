@@ -1,2 +1,7 @@
-.terraform
+# poetry
 .venv
+
+# Terraform
+.terraform
+*.tfstate
+*.tfstate.backup
