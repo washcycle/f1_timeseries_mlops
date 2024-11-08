@@ -154,7 +154,7 @@ resource "kubernetes_service" "influxdb" {
     selector = {
       app = "influxdb"
     }
-    type = "ClusterIP"
+    type = "NodePort"
     port {
       port        = 8086
       target_port = 8086
