@@ -17,5 +17,4 @@ df = df.with_columns(pl.col("date").str.to_datetime())
 response = urlopen('https://api.openf1.org/v1/car_data')
 data = json.loads(response.read().decode('utf-8'))
 
-
 # %%

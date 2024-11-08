@@ -8,6 +8,8 @@
 
 `minikube start`
 
+## Install InfluxDB
+
 ```bash
 cd infra/
 terraform init
