@@ -22,5 +22,15 @@ Verify the plan then apply the changes.
 terrafomrm apply
 ```
 
+Make influxdb available to localhost
+
+Get node port on localhost
+ 
+`kubectl get svc -n influxdb -o jsonpath="{.items[?(@.metadata.name=='influxdb')].spec.ports[0].nodePort}"`
+
+`minikube service influxdb --url`
+
+`localhost:<node port>`
+
 
 

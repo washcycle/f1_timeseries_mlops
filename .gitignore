@@ -4,6 +4,10 @@
 # poetry
 .venv
 
+# python
+__pycache__
+*.pyc
+
 # Terraform
 .terraform
 *.tfstate
