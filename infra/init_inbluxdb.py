@@ -38,4 +38,5 @@ print(f"API token: {token.token}")
 
 # Close the client
 client.close()
+
 # %%
