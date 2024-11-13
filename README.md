@@ -1,4 +1,4 @@
-# f1_timeseries_mlops
+# OpenF1 Time Series Modeling and Analysis
 
 # Time Series
 
